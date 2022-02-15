@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+}
+
+.center-imagen{
+    display: block;
+    margin: auto;
+
+}
+
+.logo{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+h1{
+    text-decoration: underline;
+}
