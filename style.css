@@ -1,3 +1,23 @@
+body{
+    background-color: #1d2127;
+    color: #fff;
+    font-family: Terminess;
+    padding: 0;
+    margin: 0;
+
+}
+
+.bar{
+    background-color: #464b55;
+    padding: 10px;
+    display: flex;
+}
+h1{
+    margin: 0 0 0 8px;
+    padding-top: 4px;
+    font-size: 25px;
+    font-family: "Overpass Mono", monospace;
+}
 .center{
     text-align: center;
 }
@@ -9,10 +29,34 @@
 }
 
 .logo{
-    max-width: 25px;
-    max-height: 25px;
+    width: 35px;
+    height: 35px;
 }
 
-h1{
-    text-decoration: underline;
+
+
+table,td{
+    border:solid 1px black;
+}
+
+table,td {
+	border: 1px solid black;
+}
+
+td{
+    width: 15%;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Italic\ Nerd\ Font\ Complete.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Nerd\ Font\ Complete.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Nerd\ Font\ Complete\ Mono.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Italic\ Nerd\ Font\ Complete.ttf');
+    font-family: Terminess; src: url('fuentes/Terminess\ \(TTF\)\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf');
 }
